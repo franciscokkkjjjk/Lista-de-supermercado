@@ -22,7 +22,7 @@ int main(void) {
     char **listaDeSupermercado, sair, *auxiliar;
     int i, j, quantidadeLista, tamanho;
     do {
-        printf("Qunatos itens deseja colocar na lista? ");
+        printf("Quantos itens deseja colocar na lista? ");
         scanf("%i", &tamanho);
         
         listaDeSupermercado = (char**)malloc(sizeof(char*)*tamanho);
